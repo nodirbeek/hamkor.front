@@ -2,6 +2,7 @@
     <div>
         <li class="list-group-item" :class="[{like: movie.like}, {favourite: movie.favourite}]"> {{movie.name}}
         <i class="fas fa-star"></i>
+        
         </li>
     </div>
 
